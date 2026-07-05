@@ -43,7 +43,7 @@ header.scrolled{
 
     margin:auto;
 
-    height:90px;
+    height:80px;
 
     display:flex;
 
@@ -51,7 +51,7 @@ header.scrolled{
 
     justify-content:space-between;
 
-    padding:15px 40px;
+    padding:0 25px;
 
 }
 
@@ -59,30 +59,37 @@ header.scrolled{
    LOGO
 ========================================== */
 
-.logo {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    text-decoration: none;
-    white-space: nowrap;
+.logo{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:12px;
+
+    font-size:1.2rem;
+
+    font-weight:700;
+
+    color:var(--primary);
+
 }
 
-.logo img {
-    width: 50px;
-    height: 50px;
-}
+.logo img{
 
-.logo h1 {
-    font-size: 2rem;
-    color: #2563eb;
-    margin: 0;
-    white-space: nowrap;
+    width:48px;
+
+    height:48px;
+
+    object-fit:contain;
+
+    border-radius:50%;
+
 }
 
 .logo span{
 
     color:var(--dark);
-    white-space: nowrap;
 
 }
 
